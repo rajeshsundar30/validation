@@ -1,0 +1,48 @@
+<!DOCTYPE >
+
+<html>
+    <head>
+        <title>Validation Form</title>
+        <link rel="stylesheet" href="../src/form.css">
+        
+    </head>
+    <body>
+        <div class="valid">
+            <div class="leftbox">
+                <div class="box">
+                <h1>Welcome You !</h1>
+                <p>TO be continue with our site please register <br>form is right  to me</p><br>
+                <q>Thank You</q>
+                </div>
+            </div>
+            <div class="rightbox">
+                <h1>Registeration Form</h1>
+                <form  id="form">
+                    <div class="inputrow">
+                        <label for="lab">FirstName :</label>
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="inputrow">
+                        <label for="lab">Date of Birth :</label>
+                        <input type="date" name="dob" id="dob" placeholder="DOB">
+                    </div>
+                    <div class="inputrow">
+                        <label for="lab">Email :</label>
+                        <input type="text" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="inputrow">
+                        <label for="lab">Phone Number :</label>
+                        <input type="number" name="number" id="phnum" placeholder="PhoneNumber">
+                    </div>
+                    <div class="inputrow">
+                        <button id="submit">Register Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="../query/jquery.js"></script>
+        <script src="../lib/jquery.validate.js"></script>
+        <script src="../query/validation.js"></script>
+    </body>
+</html>
